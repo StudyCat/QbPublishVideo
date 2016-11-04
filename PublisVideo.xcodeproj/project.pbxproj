@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090775C81D542A4B0047DCE3 /* PublishVideoCircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090775C71D542A4B0047DCE3 /* PublishVideoCircleController.m */; };
+		090775CB1D542A980047DCE3 /* PlayVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090775CA1D542A980047DCE3 /* PlayVideoView.m */; };
+		090775CE1D5436B10047DCE3 /* TakeVideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090775CD1D5436B10047DCE3 /* TakeVideoProgressView.m */; };
+		090775D11D548D4A0047DCE3 /* PublishCircleVideoMenueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090775D01D548D4A0047DCE3 /* PublishCircleVideoMenueView.m */; };
+		090775D41D548EFF0047DCE3 /* WhoCanSeeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 090775D31D548EFF0047DCE3 /* WhoCanSeeBtn.m */; };
 		0935C2281D531A50006D8E23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2271D531A50006D8E23 /* main.m */; };
 		0935C22B1D531A50006D8E23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C22A1D531A50006D8E23 /* AppDelegate.m */; };
-		0935C22E1D531A50006D8E23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C22D1D531A50006D8E23 /* ViewController.m */; };
+		0935C22E1D531A50006D8E23 /* TakeCircleVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C22D1D531A50006D8E23 /* TakeCircleVideoController.m */; };
 		0935C2311D531A50006D8E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0935C22F1D531A50006D8E23 /* Main.storyboard */; };
 		0935C2331D531A50006D8E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0935C2321D531A50006D8E23 /* Assets.xcassets */; };
 		0935C2361D531A50006D8E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0935C2341D531A50006D8E23 /* LaunchScreen.storyboard */; };
 		0935C2411D531A50006D8E23 /* PublisVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2401D531A50006D8E23 /* PublisVideoTests.m */; };
 		0935C24C1D531A50006D8E23 /* PublisVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C24B1D531A50006D8E23 /* PublisVideoUITests.m */; };
+		0935C2E41D5324D0006D8E23 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0935C2E31D5324D0006D8E23 /* AVFoundation.framework */; };
+		0935C2E71D5328E3006D8E23 /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2E61D5328E3006D8E23 /* VideoView.m */; };
+		0935C3021D533411006D8E23 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2EA1D533411006D8E23 /* MASCompositeConstraint.m */; };
+		0935C3031D533411006D8E23 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2ED1D533411006D8E23 /* MASConstraint.m */; };
+		0935C3041D533411006D8E23 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2EF1D533411006D8E23 /* MASConstraintMaker.m */; };
+		0935C3051D533411006D8E23 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2F11D533411006D8E23 /* MASLayoutConstraint.m */; };
+		0935C3061D533411006D8E23 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2F51D533411006D8E23 /* MASViewAttribute.m */; };
+		0935C3071D533411006D8E23 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2F71D533411006D8E23 /* MASViewConstraint.m */; };
+		0935C3081D533411006D8E23 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2F91D533411006D8E23 /* NSArray+MASAdditions.m */; };
+		0935C3091D533411006D8E23 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2FC1D533411006D8E23 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0935C30A1D533411006D8E23 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C2FE1D533411006D8E23 /* View+MASAdditions.m */; };
+		0935C30B1D533411006D8E23 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C3011D533411006D8E23 /* ViewController+MASAdditions.m */; };
+		0935C30E1D533F0F006D8E23 /* HoldToTakeVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935C30D1D533F0F006D8E23 /* HoldToTakeVideoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +53,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090775C61D542A4B0047DCE3 /* PublishVideoCircleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishVideoCircleController.h; sourceTree = "<group>"; };
+		090775C71D542A4B0047DCE3 /* PublishVideoCircleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishVideoCircleController.m; sourceTree = "<group>"; };
+		090775C91D542A980047DCE3 /* PlayVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVideoView.h; sourceTree = "<group>"; };
+		090775CA1D542A980047DCE3 /* PlayVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVideoView.m; sourceTree = "<group>"; };
+		090775CC1D5436B10047DCE3 /* TakeVideoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeVideoProgressView.h; sourceTree = "<group>"; };
+		090775CD1D5436B10047DCE3 /* TakeVideoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeVideoProgressView.m; sourceTree = "<group>"; };
+		090775CF1D548D4A0047DCE3 /* PublishCircleVideoMenueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishCircleVideoMenueView.h; sourceTree = "<group>"; };
+		090775D01D548D4A0047DCE3 /* PublishCircleVideoMenueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishCircleVideoMenueView.m; sourceTree = "<group>"; };
+		090775D21D548EFF0047DCE3 /* WhoCanSeeBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhoCanSeeBtn.h; sourceTree = "<group>"; };
+		090775D31D548EFF0047DCE3 /* WhoCanSeeBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhoCanSeeBtn.m; sourceTree = "<group>"; };
 		0935C2231D531A4F006D8E23 /* PublisVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublisVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0935C2271D531A50006D8E23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0935C2291D531A50006D8E23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0935C22A1D531A50006D8E23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0935C22C1D531A50006D8E23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0935C22D1D531A50006D8E23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0935C22C1D531A50006D8E23 /* TakeCircleVideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakeCircleVideoController.h; sourceTree = "<group>"; };
+		0935C22D1D531A50006D8E23 /* TakeCircleVideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakeCircleVideoController.m; sourceTree = "<group>"; };
 		0935C2301D531A50006D8E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0935C2321D531A50006D8E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0935C2351D531A50006D8E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +79,36 @@
 		0935C2471D531A50006D8E23 /* PublisVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PublisVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0935C24B1D531A50006D8E23 /* PublisVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublisVideoUITests.m; sourceTree = "<group>"; };
 		0935C24D1D531A50006D8E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0935C2E31D5324D0006D8E23 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0935C2E51D5328E3006D8E23 /* VideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		0935C2E61D5328E3006D8E23 /* VideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
+		0935C2E91D533411006D8E23 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0935C2EA1D533411006D8E23 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0935C2EB1D533411006D8E23 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		0935C2EC1D533411006D8E23 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		0935C2ED1D533411006D8E23 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		0935C2EE1D533411006D8E23 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		0935C2EF1D533411006D8E23 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		0935C2F01D533411006D8E23 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		0935C2F11D533411006D8E23 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		0935C2F21D533411006D8E23 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		0935C2F31D533411006D8E23 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		0935C2F41D533411006D8E23 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		0935C2F51D533411006D8E23 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		0935C2F61D533411006D8E23 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		0935C2F71D533411006D8E23 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		0935C2F81D533411006D8E23 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		0935C2F91D533411006D8E23 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0935C2FA1D533411006D8E23 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0935C2FB1D533411006D8E23 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		0935C2FC1D533411006D8E23 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		0935C2FD1D533411006D8E23 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		0935C2FE1D533411006D8E23 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		0935C2FF1D533411006D8E23 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0935C3001D533411006D8E23 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		0935C3011D533411006D8E23 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0935C30C1D533F0F006D8E23 /* HoldToTakeVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoldToTakeVideoView.h; sourceTree = "<group>"; };
+		0935C30D1D533F0F006D8E23 /* HoldToTakeVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoldToTakeVideoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0935C2E41D5324D0006D8E23 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +140,7 @@
 		0935C21A1D531A4F006D8E23 = {
 			isa = PBXGroup;
 			children = (
+				0935C2E31D5324D0006D8E23 /* AVFoundation.framework */,
 				0935C2251D531A50006D8E23 /* PublisVideo */,
 				0935C23F1D531A50006D8E23 /* PublisVideoTests */,
 				0935C24A1D531A50006D8E23 /* PublisVideoUITests */,
@@ -101,10 +161,25 @@
 		0935C2251D531A50006D8E23 /* PublisVideo */ = {
 			isa = PBXGroup;
 			children = (
+				0935C2E81D533411006D8E23 /* Masonry */,
 				0935C2291D531A50006D8E23 /* AppDelegate.h */,
 				0935C22A1D531A50006D8E23 /* AppDelegate.m */,
-				0935C22C1D531A50006D8E23 /* ViewController.h */,
-				0935C22D1D531A50006D8E23 /* ViewController.m */,
+				0935C2E51D5328E3006D8E23 /* VideoView.h */,
+				0935C2E61D5328E3006D8E23 /* VideoView.m */,
+				0935C30C1D533F0F006D8E23 /* HoldToTakeVideoView.h */,
+				0935C30D1D533F0F006D8E23 /* HoldToTakeVideoView.m */,
+				0935C22C1D531A50006D8E23 /* TakeCircleVideoController.h */,
+				0935C22D1D531A50006D8E23 /* TakeCircleVideoController.m */,
+				090775C61D542A4B0047DCE3 /* PublishVideoCircleController.h */,
+				090775C71D542A4B0047DCE3 /* PublishVideoCircleController.m */,
+				090775C91D542A980047DCE3 /* PlayVideoView.h */,
+				090775CA1D542A980047DCE3 /* PlayVideoView.m */,
+				090775CC1D5436B10047DCE3 /* TakeVideoProgressView.h */,
+				090775CD1D5436B10047DCE3 /* TakeVideoProgressView.m */,
+				090775CF1D548D4A0047DCE3 /* PublishCircleVideoMenueView.h */,
+				090775D01D548D4A0047DCE3 /* PublishCircleVideoMenueView.m */,
+				090775D21D548EFF0047DCE3 /* WhoCanSeeBtn.h */,
+				090775D31D548EFF0047DCE3 /* WhoCanSeeBtn.m */,
 				0935C22F1D531A50006D8E23 /* Main.storyboard */,
 				0935C2321D531A50006D8E23 /* Assets.xcassets */,
 				0935C2341D531A50006D8E23 /* LaunchScreen.storyboard */,
@@ -138,6 +213,38 @@
 				0935C24D1D531A50006D8E23 /* Info.plist */,
 			);
 			path = PublisVideoUITests;
+			sourceTree = "<group>";
+		};
+		0935C2E81D533411006D8E23 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0935C2E91D533411006D8E23 /* MASCompositeConstraint.h */,
+				0935C2EA1D533411006D8E23 /* MASCompositeConstraint.m */,
+				0935C2EB1D533411006D8E23 /* MASConstraint+Private.h */,
+				0935C2EC1D533411006D8E23 /* MASConstraint.h */,
+				0935C2ED1D533411006D8E23 /* MASConstraint.m */,
+				0935C2EE1D533411006D8E23 /* MASConstraintMaker.h */,
+				0935C2EF1D533411006D8E23 /* MASConstraintMaker.m */,
+				0935C2F01D533411006D8E23 /* MASLayoutConstraint.h */,
+				0935C2F11D533411006D8E23 /* MASLayoutConstraint.m */,
+				0935C2F21D533411006D8E23 /* Masonry.h */,
+				0935C2F31D533411006D8E23 /* MASUtilities.h */,
+				0935C2F41D533411006D8E23 /* MASViewAttribute.h */,
+				0935C2F51D533411006D8E23 /* MASViewAttribute.m */,
+				0935C2F61D533411006D8E23 /* MASViewConstraint.h */,
+				0935C2F71D533411006D8E23 /* MASViewConstraint.m */,
+				0935C2F81D533411006D8E23 /* NSArray+MASAdditions.h */,
+				0935C2F91D533411006D8E23 /* NSArray+MASAdditions.m */,
+				0935C2FA1D533411006D8E23 /* NSArray+MASShorthandAdditions.h */,
+				0935C2FB1D533411006D8E23 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				0935C2FC1D533411006D8E23 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				0935C2FD1D533411006D8E23 /* View+MASAdditions.h */,
+				0935C2FE1D533411006D8E23 /* View+MASAdditions.m */,
+				0935C2FF1D533411006D8E23 /* View+MASShorthandAdditions.h */,
+				0935C3001D533411006D8E23 /* ViewController+MASAdditions.h */,
+				0935C3011D533411006D8E23 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +314,7 @@
 				TargetAttributes = {
 					0935C2221D531A4F006D8E23 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3MVRS7C6XQ;
 					};
 					0935C23B1D531A50006D8E23 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -270,8 +378,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0935C22E1D531A50006D8E23 /* ViewController.m in Sources */,
+				0935C3031D533411006D8E23 /* MASConstraint.m in Sources */,
+				090775C81D542A4B0047DCE3 /* PublishVideoCircleController.m in Sources */,
+				090775CE1D5436B10047DCE3 /* TakeVideoProgressView.m in Sources */,
+				0935C3061D533411006D8E23 /* MASViewAttribute.m in Sources */,
+				0935C30B1D533411006D8E23 /* ViewController+MASAdditions.m in Sources */,
+				0935C3081D533411006D8E23 /* NSArray+MASAdditions.m in Sources */,
+				0935C3071D533411006D8E23 /* MASViewConstraint.m in Sources */,
+				0935C3051D533411006D8E23 /* MASLayoutConstraint.m in Sources */,
+				090775CB1D542A980047DCE3 /* PlayVideoView.m in Sources */,
+				090775D41D548EFF0047DCE3 /* WhoCanSeeBtn.m in Sources */,
+				090775D11D548D4A0047DCE3 /* PublishCircleVideoMenueView.m in Sources */,
+				0935C22E1D531A50006D8E23 /* TakeCircleVideoController.m in Sources */,
+				0935C30A1D533411006D8E23 /* View+MASAdditions.m in Sources */,
+				0935C3021D533411006D8E23 /* MASCompositeConstraint.m in Sources */,
+				0935C3091D533411006D8E23 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				0935C3041D533411006D8E23 /* MASConstraintMaker.m in Sources */,
 				0935C22B1D531A50006D8E23 /* AppDelegate.m in Sources */,
+				0935C30E1D533F0F006D8E23 /* HoldToTakeVideoView.m in Sources */,
+				0935C2E71D5328E3006D8E23 /* VideoView.m in Sources */,
 				0935C2281D531A50006D8E23 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,9 +540,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3MVRS7C6XQ;
 				INFOPLIST_FILE = PublisVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wolianwang.PublisVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = wolianwangbundle.wolianwangbundle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -426,9 +552,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3MVRS7C6XQ;
 				INFOPLIST_FILE = PublisVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wolianwang.PublisVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = wolianwangbundle.wolianwangbundle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +625,7 @@
 				0935C2521D531A50006D8E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0935C2531D531A50006D8E23 /* Build configuration list for PBXNativeTarget "PublisVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +634,7 @@
 				0935C2551D531A50006D8E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0935C2561D531A50006D8E23 /* Build configuration list for PBXNativeTarget "PublisVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +643,7 @@
 				0935C2581D531A50006D8E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
